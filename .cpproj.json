@@ -1,0 +1,33 @@
+{
+  "name": "CPProj-Project",
+  "version": "0.0.1",
+  "type": "Application",
+  "appOrLibName": "Application",
+  "dirs": {
+    "external": "external",
+    "src": "source",
+    "build": "build"
+  },
+  "codeCase": "camel",
+  "pch": "pch",
+  "formats": {
+    "source": "cxx",
+    "header": "hxx"
+  },
+  "submodules": [
+    {
+      "url": "https://github.com/glfw/glfw",
+      "name": "glfw",
+      "lib": "glfw",
+      "include": "include"
+    },
+    {
+      "url": "https://github.com/Perlmint/glew-cmake",
+      "name": "glew",
+      "cmake": "build/cmake",
+      "lib": "glew_s",
+      "include": "include"
+    }
+  ],
+  "src": "src"
+}
